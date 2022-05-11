@@ -24,8 +24,8 @@ const BaseLayout = ({
          <body className="bg-primary">
             {children}
 
-            <div className="px-4 fixed bottom-0 left-0 right-0">
-               <nav className="max-w-7xl mx-auto">
+            <div className="px-4 fixed bottom-0 left-0 xl:left-[calc((100vw-1280px)/2)] z-50">
+               <nav className="">
                   <ul className="-ml-2 inline-flex flex-col items-center space-y-1 after:block after:w-[3px] after:h-14 after:mt-3 after:bg-black">
                      <li>
                         <a

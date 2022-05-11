@@ -1,0 +1,122 @@
+{
+   "stacks": [
+      {
+         "groupName": "languages",
+         "items": [
+            {
+               "name": "HTML",
+               "icon": "html5"
+            },
+            {
+               "name": "CSS",
+               "icon": "css3"
+            },
+            {
+               "name": "JavaScript",
+               "icon": "javascript"
+            },
+            {
+               "name": "TypeScript",
+               "icon": "typescript"
+            },
+            {
+               "name": "Node.js",
+               "icon": "nodejs"
+            }
+         ]
+      },
+      {
+         "groupName": "front-end framework",
+         "items": [
+            {
+               "name": "React JS",
+               "icon": "react"
+            },
+            {
+               "name": "Next JS",
+               "icon": "nextjs"
+            },
+            {
+               "name": "Vite JS",
+               "icon": "vitejs"
+            },
+            {
+               "name": "Gatsby",
+               "icon": "gatsby"
+            },
+            {
+               "name": "Astro Build",
+               "icon": "astro"
+            },
+            {
+               "name": "Eleventy",
+               "icon": "11ty"
+            }
+         ]
+      },
+      {
+         "groupName": "compiler & pre-processor",
+         "items": [
+            {
+               "name": "HTML",
+               "icon": "html5"
+            },
+            {
+               "name": "CSS",
+               "icon": "css3"
+            },
+            {
+               "name": "JavaScript",
+               "icon": "javascript"
+            },
+            {
+               "name": "TypeScript",
+               "icon": "typescript"
+            },
+            {
+               "name": "Node.js",
+               "icon": "nodejs"
+            },
+            {
+               "name": "Node.js",
+               "icon": "nodejs"
+            }
+         ]
+      },
+      {
+         "groupName": "CMS",
+         "items": [
+            {
+               "name": "React JS",
+               "icon": "react"
+            },
+            {
+               "name": "Next JS",
+               "icon": "nextjs"
+            },
+            {
+               "name": "Vite JS",
+               "icon": "vitejs"
+            }
+         ]
+      },
+
+      {
+         "groupName": "hosting & database",
+         "items": [
+            {
+               "name": "React JS",
+               "icon": "react"
+            },
+            {
+               "name": "Next JS",
+               "icon": "nextjs"
+            },
+            {
+               "name": "Vite JS",
+               "icon": "vitejs"
+            }
+         ]
+      }
+   ]
+}

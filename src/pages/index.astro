@@ -2,6 +2,7 @@
 import Layout from "../components/layouts/base.tsx";
 import Header from "../components/elements/header.tsx";
 import Introduction from "../components/elements/introduction.tsx";
+import Stacks from "../components/elements/stacks.tsx";
 
 const location = Astro.canonicalURL;
 ---
@@ -9,5 +10,5 @@ const location = Astro.canonicalURL;
 <Layout>
 	<Header location={location} />
 	<Introduction />
-	<div class="h-screen"></div>
+	<Stacks />
 </Layout>
