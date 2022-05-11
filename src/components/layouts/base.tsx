@@ -16,7 +16,10 @@ const BaseLayout = ({
             <meta charSet="utf-8" />
             <meta name="viewport" content="width=device-width" />
             <title>{title}</title>
-            <meta description="Front-end developper on a mission to provide a high-performance and accessible application for all" />
+            <meta
+               name="description"
+               content="Front-end developper on a mission to provide a high-performance and accessible application for all"
+            />
          </head>
          <body className="bg-primary">
             {children}
