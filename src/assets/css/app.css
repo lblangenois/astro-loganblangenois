@@ -38,5 +38,5 @@
 
 /* A11Y */
 *:focus-visible {
-   @apply outline-2 outline-dashed outline-offset-4;
+   @apply outline-2 outline-dashed outline-offset-4 outline-black;
 }
