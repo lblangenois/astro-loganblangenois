@@ -1,10 +1,12 @@
 ---
 import Layout from "../components/layouts/base.tsx";
 import Header from "../components/elements/header.tsx";
+import Introduction from "../components/elements/introduction.tsx";
 
 const location = Astro.canonicalURL;
 ---
 
 <Layout>
 	<Header location={location} />
+	<Introduction />
 </Layout>

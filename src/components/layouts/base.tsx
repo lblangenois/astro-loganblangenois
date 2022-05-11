@@ -6,13 +6,17 @@ interface IBaseProps {
    title?: string;
 }
 
-const BaseLayout = ({ children, title = "Logan Blangenois" }: IBaseProps) => {
+const BaseLayout = ({
+   children,
+   title = "Logan Blangenois - React JS Front-end Developper",
+}: IBaseProps) => {
    return (
       <html lang="en">
          <head>
             <meta charSet="utf-8" />
             <meta name="viewport" content="width=device-width" />
             <title>{title}</title>
+            <meta description="Front-end developper on a mission to provide a high-performance and accessible application for all" />
          </head>
          <body className="bg-primary">
             {children}

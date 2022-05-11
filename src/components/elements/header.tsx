@@ -26,7 +26,7 @@ const Header = () => {
                      <li key={index}>
                         <a
                            href={item.link}
-                           className="font-bold text-lg uppercase relative before:absolute before:bottom-[-2px] before:left-0 before:content:' ' before:right-0 before:bg-black before:w-full before:h-[2px] before:transform before:-translate-y-2 before:opacity-0 before:transition before:duration-200 before:ease-[cubic-bezier(0.175,0.885,0.320,1.275)] hover:before:opacity-100 hover:before:translate-y-0"
+                           className="font-bold text-lg uppercase relative before:absolute before:bottom-[-2px] before:left-0 before:content:' ' before:right-0 text-black before:bg-black before:w-full before:h-[2px] before:transform before:-translate-y-2 before:opacity-0 before:transition before:duration-200 before:ease-[cubic-bezier(0.175,0.885,0.320,1.275)] hover:before:opacity-100 hover:before:translate-y-0"
                         >
                            {item.name}
                         </a>
