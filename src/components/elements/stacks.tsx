@@ -1,7 +1,6 @@
 import { stacks } from "../../content/stacks.json";
 
 const Stacks = () => {
-   console.log(stacks);
    return (
       <div
          className="px-14 xl:px-4 py-12 lg:py-20 xl:py-28 relative z-20"
@@ -20,7 +19,12 @@ const Stacks = () => {
                      <ul className="flex flex-row flex-wrap items-center gap-4">
                         {stack.items.map((item, jndex) => (
                            <li key={jndex} className="relative group">
-                              <figure className="w-[75px] h-[75px] rounded-full bg-white shadow-[0px_6px_21px_0px_rgba(0,0,0,0.25)] mb-8"></figure>
+                              <figure className="w-[75px] h-[75px] flex items-center justify-center rounded-full bg-white shadow-[0px_6px_21px_0px_rgba(0,0,0,0.25)] mb-8">
+                                 <img
+                                    src={`/images/icon-${item.icon}.svg`}
+                                    alt={item.name}
+                                 />
+                              </figure>
                               <p className="text-md lg:text-lg font-bold absolute left-1/2 transform -translate-x-1/2 text-center w-40 text-black bottom-0 lg:opacity-0 group-hover:opacity-100 transition duration-200 ease-[cubic-bezier(0.175,0.885,0.320,1.275)] group-hover:translate-y-0 lg:-translate-y-2">
                                  {item.name}
                               </p>

@@ -30,19 +30,19 @@
          "items": [
             {
                "name": "React JS",
-               "icon": "react"
+               "icon": "reactjs"
             },
             {
                "name": "Next JS",
                "icon": "nextjs"
             },
             {
-               "name": "Vite JS",
-               "icon": "vitejs"
+               "name": "Vite",
+               "icon": "vite"
             },
             {
                "name": "Gatsby",
-               "icon": "gatsby"
+               "icon": "gatsbyjs"
             },
             {
                "name": "Astro Build",
@@ -58,28 +58,28 @@
          "groupName": "compiler & pre-processor",
          "items": [
             {
-               "name": "HTML",
-               "icon": "html5"
+               "name": "Webpack",
+               "icon": "webpack"
             },
             {
-               "name": "CSS",
-               "icon": "css3"
+               "name": "Gulp",
+               "icon": "gulp"
             },
             {
-               "name": "JavaScript",
-               "icon": "javascript"
+               "name": "Sass",
+               "icon": "sass"
             },
             {
-               "name": "TypeScript",
-               "icon": "typescript"
+               "name": "PostCSS",
+               "icon": "postcss"
             },
             {
-               "name": "Node.js",
-               "icon": "nodejs"
+               "name": "TailwindCSS",
+               "icon": "tailwindcss"
             },
             {
-               "name": "Node.js",
-               "icon": "nodejs"
+               "name": "Bootstrap",
+               "icon": "bootstrap"
             }
          ]
       },
@@ -87,16 +87,16 @@
          "groupName": "CMS",
          "items": [
             {
-               "name": "React JS",
-               "icon": "react"
+               "name": "WordPress",
+               "icon": "wordpress"
             },
             {
-               "name": "Next JS",
-               "icon": "nextjs"
+               "name": "Prismic",
+               "icon": "prismic"
             },
             {
-               "name": "Vite JS",
-               "icon": "vitejs"
+               "name": "Storyblok",
+               "icon": "storyblok"
             }
          ]
       },
@@ -105,16 +105,20 @@
          "groupName": "hosting & database",
          "items": [
             {
-               "name": "React JS",
-               "icon": "react"
+               "name": "Vercel",
+               "icon": "vercel"
             },
             {
-               "name": "Next JS",
-               "icon": "nextjs"
+               "name": "Netlify",
+               "icon": "netlify"
             },
             {
-               "name": "Vite JS",
-               "icon": "vitejs"
+               "name": "Kinsta",
+               "icon": "kinsta"
+            },
+            {
+               "name": "Infomaniak",
+               "icon": "Infomaniak"
             }
          ]
       }
