@@ -12,8 +12,8 @@ const Introduction = () => {
                src="/images/humans.svg"
                alt="humans"
                className="w-full h-auto mt-12 max-w-[689px]"
-               width="56"
-               height="70"
+               width="699"
+               height="299"
             />
          </div>
 
@@ -22,8 +22,8 @@ const Introduction = () => {
                src="/images/words.svg"
                alt="Words of stacks"
                className="w-full h-full object-cover"
-               width="699"
-               height="299"
+               width="300"
+               height="110"
             />
          </div>
       </div>

@@ -15,7 +15,12 @@ const Header = () => {
          <div className="max-w-7xl mx-auto flex justify-between items-center">
             <figure>
                <a href="/" className="block w-14 h-auto">
-                  <img src="/images/brand.svg" alt="Logo" />
+                  <img
+                     src="/images/brand.svg"
+                     alt="Logo"
+                     width="56"
+                     height="70"
+                  />
                   <span className="sr-only">Retourner à l'accueil</span>
                </a>
             </figure>
