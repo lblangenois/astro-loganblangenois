@@ -15,11 +15,45 @@ const BaseLayout = ({
          <head>
             <meta charSet="utf-8" />
             <meta name="viewport" content="width=device-width" />
+            <meta
+               name="description"
+               content="React JS Front-end Developper performance and accessibility oriented"
+            />
             <title>{title}</title>
             <meta
                name="description"
                content="Front-end developper on a mission to provide a high-performance and accessible application for all"
             />
+            <link
+               rel="apple-touch-icon"
+               sizes="180x180"
+               href="/favicon/apple-touch-icon.png"
+            />
+            <link
+               rel="icon"
+               type="image/png"
+               sizes="32x32"
+               href="/favicon/favicon-32x32.png"
+            />
+            <link
+               rel="icon"
+               type="image/png"
+               sizes="16x16"
+               href="/favicon/favicon-16x16.png"
+            />
+            <link rel="manifest" href="/favicon/manifest.json" />
+            <link
+               rel="mask-icon"
+               href="/favicon/safari-pinned-tab.svg"
+               color="#2ecc71"
+            />
+            <link rel="shortcut icon" href="/favicon/favicon.ico" />
+            <meta name="msapplication-TileColor" content="#2ecc71" />
+            <meta
+               name="msapplication-config"
+               content="/favicon/browserconfig.xml"
+            />
+            <meta name="theme-color" content="#ffffff" />
          </head>
          <body className="bg-primary">
             {children}

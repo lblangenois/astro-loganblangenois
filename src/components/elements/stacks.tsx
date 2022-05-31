@@ -23,6 +23,8 @@ const Stacks = () => {
                                  <img
                                     src={`/images/icon-${item.icon}.svg`}
                                     alt={item.name}
+                                    width="auto"
+                                    height="auto"
                                  />
                               </figure>
                               <p className="text-md lg:text-lg font-bold absolute left-1/2 transform -translate-x-1/2 text-center w-40 text-black bottom-0 lg:opacity-0 group-hover:opacity-100 transition duration-200 ease-[cubic-bezier(0.175,0.885,0.320,1.275)] group-hover:translate-y-0 lg:-translate-y-2">

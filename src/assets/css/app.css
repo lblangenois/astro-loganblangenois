@@ -15,6 +15,7 @@
          format("svg");
    font-weight: normal;
    font-style: normal;
+   font-display: swap;
 }
 
 @font-face {
@@ -28,6 +29,7 @@
       url("/fonts/IBM/ibmplexsans-bold.svg#ibm_plex_sansbold") format("svg");
    font-weight: 700;
    font-style: normal;
+   font-display: swap;
 }
 
 * {
