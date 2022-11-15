@@ -1,126 +1,134 @@
 {
-   "stacks": [
-      {
-         "groupName": "languages",
-         "items": [
-            {
-               "name": "HTML",
-               "icon": "html5"
-            },
-            {
-               "name": "CSS",
-               "icon": "css3"
-            },
-            {
-               "name": "JavaScript",
-               "icon": "javascript"
-            },
-            {
-               "name": "TypeScript",
-               "icon": "typescript"
-            },
-            {
-               "name": "Node.js",
-               "icon": "nodejs"
-            }
-         ]
-      },
-      {
-         "groupName": "front-end framework",
-         "items": [
-            {
-               "name": "React JS",
-               "icon": "reactjs"
-            },
-            {
-               "name": "Next JS",
-               "icon": "nextjs"
-            },
-            {
-               "name": "Vite",
-               "icon": "vite"
-            },
-            {
-               "name": "Gatsby",
-               "icon": "gatsbyjs"
-            },
-            {
-               "name": "Astro Build",
-               "icon": "astro"
-            },
-            {
-               "name": "Eleventy",
-               "icon": "11ty"
-            }
-         ]
-      },
-      {
-         "groupName": "compiler & pre-processor",
-         "items": [
-            {
-               "name": "Webpack",
-               "icon": "webpack"
-            },
-            {
-               "name": "Gulp",
-               "icon": "gulp"
-            },
-            {
-               "name": "Sass",
-               "icon": "sass"
-            },
-            {
-               "name": "PostCSS",
-               "icon": "postcss"
-            },
-            {
-               "name": "TailwindCSS",
-               "icon": "tailwindcss"
-            },
-            {
-               "name": "Bootstrap",
-               "icon": "bootstrap"
-            }
-         ]
-      },
-      {
-         "groupName": "CMS",
-         "items": [
-            {
-               "name": "WordPress",
-               "icon": "wordpress"
-            },
-            {
-               "name": "Prismic",
-               "icon": "prismic"
-            },
-            {
-               "name": "Storyblok",
-               "icon": "storyblok"
-            }
-         ]
-      },
+	"stacks": [
+		{
+			"groupName": "languages",
+			"items": [
+				{
+					"name": "HTML",
+					"icon": "html5"
+				},
+				{
+					"name": "CSS",
+					"icon": "css3"
+				},
+				{
+					"name": "JavaScript",
+					"icon": "javascript"
+				},
+				{
+					"name": "TypeScript",
+					"icon": "typescript"
+				},
+				{
+					"name": "Node.js",
+					"icon": "nodejs"
+				}
+			]
+		},
+		{
+			"groupName": "front-end framework",
+			"items": [
+				{
+					"name": "React JS",
+					"icon": "reactjs"
+				},
+				{
+					"name": "Next JS",
+					"icon": "nextjs"
+				},
+				{
+					"name": "Vite",
+					"icon": "vite"
+				},
+				{
+					"name": "Gatsby",
+					"icon": "gatsbyjs"
+				},
+				{
+					"name": "Astro",
+					"icon": "astro"
+				},
+				{
+					"name": "Eleventy",
+					"icon": "11ty"
+				}
+			]
+		},
+		{
+			"groupName": "compiler & pre-processor",
+			"items": [
+				{
+					"name": "Webpack",
+					"icon": "webpack"
+				},
+				{
+					"name": "Gulp",
+					"icon": "gulp"
+				},
+				{
+					"name": "Sass",
+					"icon": "sass"
+				},
+				{
+					"name": "PostCSS",
+					"icon": "postcss"
+				},
+				{
+					"name": "TailwindCSS",
+					"icon": "tailwindcss"
+				},
+				{
+					"name": "Bootstrap",
+					"icon": "bootstrap"
+				}
+			]
+		},
+		{
+			"groupName": "CMS",
+			"items": [
+				{
+					"name": "WordPress",
+					"icon": "wordpress"
+				},
+				{
+					"name": "Prismic",
+					"icon": "prismic"
+				},
+				{
+					"name": "Storyblok",
+					"icon": "storyblok"
+				},
+				{
+					"name": "Contentful",
+					"icon": "contentful"
+				}
+			]
+		},
 
-      {
-         "groupName": "hosting & database",
-         "items": [
-            {
-               "name": "Vercel",
-               "icon": "vercel"
-            },
-            {
-               "name": "Netlify",
-               "icon": "netlify"
-            },
-            {
-               "name": "Kinsta",
-               "icon": "kinsta"
-            },
-            {
-               "name": "Infomaniak",
-               "icon": "infomaniak"
-            }
-         ]
-      }
-   ]
+		{
+			"groupName": "hosting & database",
+			"items": [
+				{
+					"name": "Vercel",
+					"icon": "vercel"
+				},
+				{
+					"name": "Netlify",
+					"icon": "netlify"
+				},
+				{
+					"name": "Supabase",
+					"icon": "supabase"
+				},
+				{
+					"name": "Kinsta",
+					"icon": "kinsta"
+				},
+				{
+					"name": "Infomaniak",
+					"icon": "infomaniak"
+				}
+			]
+		}
+	]
 }
