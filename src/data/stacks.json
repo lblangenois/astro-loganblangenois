@@ -104,7 +104,6 @@
 				}
 			]
 		},
-
 		{
 			"groupName": "hosting & database",
 			"items": [
@@ -127,6 +126,27 @@
 				{
 					"name": "Infomaniak",
 					"icon": "infomaniak"
+				}
+			]
+		},
+		{
+			"groupName": "tools & API",
+			"items": [
+				{
+					"name": "Google API",
+					"icon": "googlecloud"
+				},
+				{
+					"name": "Algolia",
+					"icon": "algolia"
+				},
+				{
+					"name": "Elastic",
+					"icon": "elasticsearch"
+				},
+				{
+					"name": "Mapbox",
+					"icon": "mapbox"
 				}
 			]
 		}
