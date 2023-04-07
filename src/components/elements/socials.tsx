@@ -19,12 +19,12 @@ const Socials: React.FC<SocialsProps> = ({
 				className={classNames(
 					`-ml-2 inline-flex items-center gap-1`,
 					orientation === "vertical"
-						? "flex-col after:block after:w-[3px] after:h-14 after:mt-3 after:bg-black"
+						? "flex-col after:block after:w-[3px] after:h-14 after:mt-3 after:bg-black after:transition after:origin-bottom"
 						: "flex-row",
 					className
 				)}
 			>
-				<li>
+				<li className="transition delay-100">
 					<a
 						href="https://github.com/MKlblangenois"
 						target="_blank"
@@ -45,7 +45,7 @@ const Socials: React.FC<SocialsProps> = ({
 						<span className="sr-only">GitHub</span>
 					</a>
 				</li>
-				<li>
+				<li className="transition delay-150">
 					<a
 						href="https://www.instagram.com/loganblangenois"
 						target="_blank"
@@ -66,7 +66,7 @@ const Socials: React.FC<SocialsProps> = ({
 						<span className="sr-only">Instagram</span>
 					</a>
 				</li>
-				<li>
+				<li className="transition delay-150">
 					<a
 						href="https://codepen.io/lblangenois"
 						target="_blank"

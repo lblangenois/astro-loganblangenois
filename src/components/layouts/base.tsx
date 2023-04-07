@@ -19,6 +19,8 @@ const BaseLayout = ({
 			<div className="hidden md:block px-4 fixed bottom-0 left-0 xl:left-[calc((100vw-1280px)/2)] z-50">
 				<Socials />
 			</div>
+
+			<script src="/scripts/main.ts" />
 		</body>
 	);
 };
