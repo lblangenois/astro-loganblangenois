@@ -20,7 +20,7 @@ const BaseLayout = ({
 				<Socials />
 			</div>
 
-			<script src="/scripts/main.ts" />
+			<script src="/scripts/main.js" />
 		</body>
 	);
 };

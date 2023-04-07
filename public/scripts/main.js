@@ -54,7 +54,24 @@ const toggleStickyOnScroll = () => {
 	});
 };
 
+/**
+ * Handle mailto links to prevent spam
+ *
+ * @return {*}
+ */
+const handleMailTo = () => {
+	document.querySelectorAll('a[href^="mailto:"]').forEach((link) => {
+		link.addEventListener("click", (e) => {
+			e.preventDefault();
+
+			// Open window to send email
+			window.open(`mailto:hello@logan-blangenois.be`, "_blank");
+		});
+	});
+};
+
 window.addEventListener("load", () => {
 	handleSmoothScroll();
 	toggleStickyOnScroll();
+	handleMailTo();
 });
