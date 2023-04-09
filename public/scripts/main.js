@@ -32,9 +32,12 @@ const toggleStickyOnScroll = () => {
 	const stickyList = stickyElement.querySelector("ul");
 	const stickyListItems = stickyElement.querySelectorAll("li");
 
-	// When user has scrolled on bottom, add class to sticky element, else remove it
+	// When user has scrolled on bottom - 100px, add class to sticky element, else remove it
 	window.addEventListener("scroll", () => {
-		if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
+		if (
+			window.innerHeight + window.pageYOffset >=
+			document.body.offsetHeight - 2
+		) {
 			// Hide stickyList with a scaleY animation
 			stickyList.classList.add("after:scale-y-0");
 
@@ -70,16 +73,14 @@ const handleMailTo = () => {
 	});
 };
 
-window.addEventListener("load", () => {
-	handleSmoothScroll();
-	toggleStickyOnScroll();
-	handleMailTo();
+handleSmoothScroll();
+toggleStickyOnScroll();
+handleMailTo();
 
-	// Add "target=_blank" to all external links inside .prose element
-	document.querySelectorAll(".prose a").forEach((link) => {
-		if (link.hostname !== window.location.hostname) {
-			link.setAttribute("target", "_blank");
-			link.setAttribute("rel", "noopener noreferrer");
-		}
-	});
+// Add "target=_blank" to all external links inside .prose element
+document.querySelectorAll(".prose a").forEach((link) => {
+	if (link.hostname !== window.location.hostname) {
+		link.setAttribute("target", "_blank");
+		link.setAttribute("rel", "noopener noreferrer");
+	}
 });
