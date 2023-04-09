@@ -22,6 +22,56 @@
 				{
 					"name": "Node.js",
 					"icon": "nodejs"
+				},
+				{
+					"name": "PHP",
+					"icon": "php"
+				}
+			]
+		},
+		{
+			"groupName": "CMS",
+			"items": [
+				{
+					"name": "WordPress",
+					"icon": "wordpress"
+				},
+				{
+					"name": "Prismic",
+					"icon": "prismic"
+				},
+				{
+					"name": "Storyblok",
+					"icon": "storyblok"
+				},
+				{
+					"name": "Contentful",
+					"icon": "contentful"
+				}
+			]
+		},
+		{
+			"groupName": "hosting & database",
+			"items": [
+				{
+					"name": "Vercel",
+					"icon": "vercel"
+				},
+				{
+					"name": "Netlify",
+					"icon": "netlify"
+				},
+				{
+					"name": "Supabase",
+					"icon": "supabase"
+				},
+				{
+					"name": "Kinsta",
+					"icon": "kinsta"
+				},
+				{
+					"name": "Infomaniak",
+					"icon": "infomaniak"
 				}
 			]
 		},
@@ -83,52 +133,7 @@
 				}
 			]
 		},
-		{
-			"groupName": "CMS",
-			"items": [
-				{
-					"name": "WordPress",
-					"icon": "wordpress"
-				},
-				{
-					"name": "Prismic",
-					"icon": "prismic"
-				},
-				{
-					"name": "Storyblok",
-					"icon": "storyblok"
-				},
-				{
-					"name": "Contentful",
-					"icon": "contentful"
-				}
-			]
-		},
-		{
-			"groupName": "hosting & database",
-			"items": [
-				{
-					"name": "Vercel",
-					"icon": "vercel"
-				},
-				{
-					"name": "Netlify",
-					"icon": "netlify"
-				},
-				{
-					"name": "Supabase",
-					"icon": "supabase"
-				},
-				{
-					"name": "Kinsta",
-					"icon": "kinsta"
-				},
-				{
-					"name": "Infomaniak",
-					"icon": "infomaniak"
-				}
-			]
-		},
+
 		{
 			"groupName": "tools & API",
 			"items": [

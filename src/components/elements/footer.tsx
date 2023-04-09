@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
 			className="px-6 md:px-20 xl:px-4 py-12 lg:pt-12 lg:pb-28 xl:pb-36 relative z-20"
 			id="contact"
 		>
-			<div className="mx-auto max-w-[1080px] flex flex-col gap-6 md:grid md:grid-cols-[1fr_auto]">
+			<div className="mx-auto max-w-[1180px] flex flex-col gap-6 md:grid md:grid-cols-[1fr_auto]">
 				<h2 className="text-3xl md:text-4xl font-bold">
 					Ready to talk with an expert?
 				</h2>

@@ -6,7 +6,7 @@ const Stacks = () => {
 			className="px-6 md:px-20 xl:px-4 py-12 lg:py-20 xl:py-28 relative z-20"
 			id="stacks"
 		>
-			<section className="mx-auto max-w-[1080px]">
+			<section className="mx-auto max-w-[1180px]">
 				<h2 className="text-3xl md:text-4xl lg:text-5xl text-center mb-12">
 					I built the web with
 				</h2>

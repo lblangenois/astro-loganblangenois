@@ -47,7 +47,7 @@ const Socials: React.FC<SocialsProps> = ({
 				</li>
 				<li className="transition delay-150">
 					<a
-						href="https://www.instagram.com/loganblangenois"
+						href="https://www.instagram.com/loganblangenois/"
 						target="_blank"
 						rel="noopener"
 						className="inline-flex w-10 h-10 items-center justify-center hover:bg-primary-300 rounded-full transition ease-in-out duration-200 hover:outline-2 hover:outline-black hover:outline outline outline-transparent outline-offset-0"
