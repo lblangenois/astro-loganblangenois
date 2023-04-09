@@ -1,19 +1,23 @@
 ---
-import Layout from "../components/layouts/base.tsx";
-import Header from "../components/elements/header.tsx";
-import Introduction from "../components/elements/introduction.tsx";
-import Stacks from "../components/elements/stacks.tsx";
-import Footer from "../components/elements/footer.tsx";
+import Footer from "../components/elements/footer";
+import Header from "../components/elements/header";
+import BaseLayout from "../components/layouts/base";
+
+// Read markdown file
+const post = await Astro.glob("../data/uses.md");
+
+const obj = Object.assign({}, ...post);
+let { Content } = obj;
 ---
 
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width" />
-		<title>Logan Blangenois - React JS Front-end Developper</title>
+		<title>What I use? | Logan Blangenois</title>
 		<meta
 			name="description"
-			content="Front-end developper on a mission to provide a high-performance and accessible application for all"
+			content="The list of what I'm using (hardware and software) for my job of Front-end developper."
 		/>
 		<link
 			rel="apple-touch-icon"
@@ -44,12 +48,16 @@ import Footer from "../components/elements/footer.tsx";
 		<meta name="theme-color" content="#ffffff" />
 	</head>
 
-	<Layout>
-		<Header />
-		<Introduction />
-		<Stacks />
+	<BaseLayout>
+		<Header isHome={false} />
+
+		<div class="px-6 md:px-20 xl:px-4 py-12 relative z-20">
+			<main class="mx-auto max-w-[980px] prose">
+				<Content />
+			</main>
+		</div>
 		<Footer />
-	</Layout>
+	</BaseLayout>
 
 
 </html>
